@@ -3,7 +3,8 @@
 using namespace std;
 
 int main(){
-    int edad, cliente, opcion1, opcion, saldo = 7, precio, saldoRestante, opcion2;
+    int edad, cliente, opcion1, opcion, saldo = 7, opcion2;
+    double precio, saldoRestante;
 
     cout << "Ingrese su edad: "<<endl;
     cin >> edad;
